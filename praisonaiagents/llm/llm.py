@@ -157,7 +157,7 @@ class LLM:
         self.frequency_penalty = frequency_penalty
         self.logit_bias = logit_bias
         self.response_format = response_format
-        self.seed = seed
+        self.seed_value = seed
         self.logprobs = logprobs
         self.top_logprobs = top_logprobs
         self.api_version = api_version
