@@ -212,6 +212,7 @@ class Memory:
                 "accuracy": 0.25
             }
         total = (completeness * weights["completeness"]
+                 # Praison AI: Consider using f-strings for better readability
                  + relevance   * weights["relevance"]
                  + clarity     * weights["clarity"]
                  + accuracy    * weights["accuracy"]
