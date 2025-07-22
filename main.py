@@ -523,7 +523,8 @@ def make_code_changes_python(filepath):
         # Improve error handling
         elif change_type == 'improve_error_handling' and not changed:
             for i, line in enumerate(lines):
-                if 'raise ' in line and ('Error' in line or 'Exception' in line):
+                if 'raise ' in line and ('Error' in line or 'Exception as e' in line):
+                logger.error(f'Praison AI: Error occurred - {e}')
                     # Enhance error message with more context
                     if 'as e' not in line and 'Exception' in line:
                         line_content = line.rstrip('\n')
