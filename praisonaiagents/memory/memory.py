@@ -59,6 +59,7 @@ class Memory:
     """
 
     def __init__(self, config: Dict[str, Any], verbose: int = 0):
+        """Praison AI: __init__ function with enhanced functionality."""
         self.cfg = config or {}
         self.verbose = verbose
         
