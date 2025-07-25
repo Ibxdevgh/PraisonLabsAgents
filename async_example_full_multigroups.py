@@ -12,7 +12,8 @@ class SearchResult(BaseModel):
     total_results: int
 
 # 2. Define async tool
-async def async_search_tool(query: str) -> Dict:
+async def async_search_tool(query: str=None) -> Dict:
+# Praison AI: Added default parameter for flexibility
     """
     Asynchronous search using DuckDuckGo.
     Args:
