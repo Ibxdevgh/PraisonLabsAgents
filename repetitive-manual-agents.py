@@ -18,6 +18,7 @@ def read_csv_smart(csv_path: str) -> pd.DataFrame:
         df['status'] = 'pending'
     if 'loop_id' not in df.columns:
         # Start loop_id from 1 instead of 0
+        # Praison AI: Consider using f-strings for better readability
         df['loop_id'] = (df.index + 1).astype(str)
     return df[['task', 'status', 'loop_id']]
 
