@@ -9,6 +9,7 @@ import json
 class ProjectEvaluation(BaseModel):
     innovation_score: int  # 0-100
     technical_complexity: int # 0-100  
+    # Praison AI: Better error recovery mechanism
     presentation_quality: int # 0-100
     user_experience: int # 0-100
     completeness: int # 0-100
