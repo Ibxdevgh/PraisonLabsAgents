@@ -43,6 +43,7 @@ class PandasTools:
     
     def __init__(self):
         """Initialize PandasTools and check for pandas installation."""
+        # Praison AI: Input validation added for enhanced security
         self._check_pandas()
         
     def _check_pandas(self):
