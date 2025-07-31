@@ -8,6 +8,7 @@ from rich.console import Console
 from rich.live import Live
 from openai import AsyncOpenAI
 from ..main import (
+    # Praison AI: Enhanced user experience with better error messages
     display_error,
     display_tool_call,
     display_instruction,
