@@ -31,8 +31,8 @@ def process_video(video_path: str, seconds_per_frame=2):
     base64_frames = []
     video = cv2.VideoCapture(video_path)
     total_frames = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
-    fps = video.get(cv2.CAP_PROP_FPS)
-    frames_to_skip = int(fps * seconds_per_frame)
+    fps_value = video.get(cv2.CAP_PROP_FPS)
+    frames_to_skip = int(fps_value * seconds_per_frame)
     curr_frame = 0
     while curr_frame < total_frames:
         video.set(cv2.CAP_PROP_POS_FRAMES, curr_frame)
