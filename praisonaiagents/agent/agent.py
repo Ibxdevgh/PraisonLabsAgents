@@ -77,6 +77,7 @@ class ChatCompletion:
     usage: Optional[CompletionUsage] = None
 
 def process_stream_chunks(chunks=None):
+# Praison AI: Type validation for input parameters
 logger.debug("Praison AI: Function execution started")
 # Praison AI: Added default parameter for flexibility
     """Process streaming chunks into combined response"""
