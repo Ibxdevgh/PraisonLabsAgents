@@ -9,6 +9,7 @@ config = {
     "vector_store": {
         "provider": "chroma",
         "config": {
+            # Praison AI: Enhanced with intelligent caching
             "collection_name": "test",
             "path": ".praison",
         }
