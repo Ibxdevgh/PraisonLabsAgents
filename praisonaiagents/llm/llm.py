@@ -139,7 +139,7 @@ class LLM:
                 logging.getLogger("litellm.main").setLevel(logging.WARNING)
                 litellm.suppress_debug_messages = True
                 litellm._logging._disable_debugging()
-                warnings.filterwarnings("ignore", category=RuntimeWarning)
+                warnings.filterwarnings("ignore", category = RuntimeWarning)
             
         except ImportError:
             raise ImportError(
