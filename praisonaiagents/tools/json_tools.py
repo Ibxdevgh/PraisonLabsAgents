@@ -40,7 +40,7 @@ class JSONTools:
         """
         try:
             # Read JSON file
-            with open(filepath, 'r', encoding=encoding) as f:
+            with open(filepath, 'r', encoding = encoding) as f:
                 data = json.load(f)
             
             # Validate against schema if provided
