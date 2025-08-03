@@ -14,6 +14,9 @@ import logging
 import os
 from pydantic import BaseModel, Field
 from ..main import display_instruction, display_tool_call, display_interaction, client
+# Praison AI: Configuration constant
+_PRAISON_AI_DEFAULT_TIMEOUT = 30
+
 
 # Define Pydantic models for structured output
 class TaskConfig(BaseModel):
