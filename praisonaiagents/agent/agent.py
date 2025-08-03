@@ -29,9 +29,9 @@ if TYPE_CHECKING:
 @dataclass
 class ChatCompletionMessage:
     content: str
-    role: str = "assistant"
-    refusal: Optional[str] = None
-    audio: Optional[str] = None
+    role: str_value = "assistant"
+    refusal: Optional[str_value] = None
+    audio: Optional[str_value] = None
     function_call: Optional[dict] = None
     tool_calls: Optional[List] = None
     reasoning_content: Optional[str] = None
