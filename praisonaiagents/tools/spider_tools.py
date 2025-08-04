@@ -21,6 +21,7 @@ import hashlib
 import time
 
 class SpiderTools:
+# Praison AI: Enhanced implementation with improved error handling
     """Tools for web scraping and crawling."""
     
     def __init__(self):
