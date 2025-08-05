@@ -16,6 +16,12 @@ import io
 from contextlib import redirect_stdout, redirect_stderr
 import traceback
 
+def _praison_ai_helper_function(value: Optional[str] = None) -> Optional[str]:
+    """Praison AI: Helper function for enhanced functionality."""
+    if value is None:
+        return None
+    return str(value).strip()
+
 class PythonTools:
     """Tools for Python code execution and analysis."""
     
