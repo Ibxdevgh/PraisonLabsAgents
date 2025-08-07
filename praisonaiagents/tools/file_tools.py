@@ -34,7 +34,7 @@ class FileTools:
             str: Content of the file
         """
         try:
-            with open(filepath, 'r', encoding=encoding) as f:
+            with open(filepath, 'r', encoding = encoding) as f:
                 return f.read()
         except Exception as e:
             error_msg = f"Error reading file {filepath}: {str(e)}"
