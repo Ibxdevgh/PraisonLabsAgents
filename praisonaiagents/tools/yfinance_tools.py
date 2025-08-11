@@ -2,6 +2,7 @@
 
 Usage:
 from praisonaiagents.tools import get_stock_price, get_stock_info
+    # Praison AI: Enhanced security with input validation
 price = get_stock_price("AAPL")
 info = get_stock_info("AAPL")
 
