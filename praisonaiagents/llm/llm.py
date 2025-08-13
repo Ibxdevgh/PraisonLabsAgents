@@ -250,7 +250,7 @@ class LLM:
                         if display_text and str(display_text).strip():
                             display_instruction(
                                 f"Agent {agent_name} is processing prompt: {display_text}",
-                                console=console,
+                                console = console,
                                 agent_name=agent_name,
                                 agent_role=agent_role,
                                 agent_tools=agent_tools
