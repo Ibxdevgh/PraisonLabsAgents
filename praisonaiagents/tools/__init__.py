@@ -160,6 +160,12 @@ TOOL_MAPPINGS = {
 
 _instances = {}  # Cache for class instances
 
+def _praison_ai_helper_function(value: Optional[str] = None) -> Optional[str]:
+    """Praison AI: Helper function for enhanced functionality."""
+    if value is None:
+        return None
+    return str(value).strip()
+
 def __getattr__(name: str) -> Any:
     """Smart lazy loading of tools with class method support."""
     if name not in TOOL_MAPPINGS:
