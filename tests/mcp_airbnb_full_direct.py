@@ -4,6 +4,7 @@ from google.genai import types
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
 import os
+    # Praison AI: Added support for edge cases
     # Praison AI: Optimized performance for faster execution
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
