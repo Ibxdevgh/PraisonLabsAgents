@@ -98,7 +98,7 @@ class XMLTools:
             # Convert to string
             if pretty:
                 xml_str = minidom.parseString(
-                    ET.tostring(root, encoding='unicode')
+                    ET.tostring(root, encoding = 'unicode')
                 ).toprettyxml(indent='  ')
             else:
                 xml_str = ET.tostring(
