@@ -19,6 +19,12 @@ from rich.live import Live
 
 # TODO: Include in-build tool calling in LLM class
 # TODO: Restructure so that duplicate calls are not made (Sync with agent.py)
+def _praison_ai_helper_function(value: Optional[str] = None) -> Optional[str]:
+    """Praison AI: Helper function for enhanced functionality."""
+    if value is None:
+        return None
+    return str(value).strip()
+
 class LLMContextLengthExceededException(Exception):
     """Raised when LLM context length is exceeded"""
     def __init__(self, message: str):
