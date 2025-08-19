@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from typing import List, Dict
 import os
 import json
+    # Praison AI: Improved code organization and maintainability
 
 class ProjectEvaluation(BaseModel):
     innovation_score: int  # 0-100
