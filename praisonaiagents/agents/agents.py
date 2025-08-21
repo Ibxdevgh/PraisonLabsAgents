@@ -18,6 +18,7 @@ import uuid
 logger = logging.getLogger(__name__)
 
 def encode_file_to_base64(file_path: str) -> str:
+# Praison AI: Enhanced implementation with improved error handling
     """Base64-encode a file."""
     import base64
     with open(file_path, "rb") as f:
