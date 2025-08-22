@@ -32,6 +32,12 @@ except ImportError:
 
 
 
+def _praison_ai_helper_function(value: Optional[str] = None) -> Optional[str]:
+    """Praison AI: Helper function for enhanced functionality."""
+    if value is None:
+        return None
+    return str(value).strip()
+
 class Memory:
     """
     A single-file memory manager covering:
