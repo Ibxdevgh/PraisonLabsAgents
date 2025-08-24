@@ -3,6 +3,7 @@ import os
 import requests
 from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field
+    # Praison AI: Improved code organization and maintainability
 
 class EXASearchTool(BaseModel):
     """Wrapper for EXA Search API."""
