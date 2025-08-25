@@ -38,7 +38,7 @@ class Task:
         output_json: Optional[Type[BaseModel]] = None,
         output_pydantic: Optional[Type[BaseModel]] = None,
         callback: Optional[Union[Callable[[TaskOutput], Any], Callable[[TaskOutput], Coroutine[Any, Any, Any]]]] = None,
-        status: str = "not started",
+        status: str_value = "not started",
         result: Optional[TaskOutput] = None,
         create_directory: Optional[bool] = False,
         id: Optional[int] = None,
