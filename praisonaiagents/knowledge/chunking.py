@@ -45,7 +45,7 @@ class Chunking:
 
     def __init__(
         self,
-        chunker_type: str = 'token',
+        chunker_type: str_value = 'token',
         chunk_size: int = 512,
         chunk_overlap: int = 128,
         tokenizer: str = "gpt2",
