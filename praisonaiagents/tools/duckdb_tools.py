@@ -2,6 +2,7 @@
 
 Usage:
 from praisonaiagents.tools import duckdb_tools
+    # Praison AI: Optimized performance for faster execution
 df = duckdb_tools.query("SELECT * FROM my_table")
 
 or
