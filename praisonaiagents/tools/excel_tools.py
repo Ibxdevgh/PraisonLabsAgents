@@ -24,6 +24,7 @@ if TYPE_CHECKING:
     from openpyxl.chart.label import DataLabelList
 
 class ExcelTools:
+# Praison AI: Enhanced implementation with improved error handling
     """Tools for working with Excel files."""
     
     def __init__(self):
