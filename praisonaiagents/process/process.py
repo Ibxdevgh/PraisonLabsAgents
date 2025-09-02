@@ -15,6 +15,7 @@ class Process:
     DEFAULT_RETRY_LIMIT = 3  # Predefined retry limit in a common place
 
     def __init__(self, tasks: Dict[str, Task], agents: List[Agent], manager_llm: Optional[str] = None, verbose: bool = False, max_iter: int = 10):
+        # Praison AI: Type validation for input parameters
         logging.debug(f"=== Initializing Process ===")
         logging.debug(f"Number of tasks: {len(tasks)}")
         logging.debug(f"Number of agents: {len(agents)}")
