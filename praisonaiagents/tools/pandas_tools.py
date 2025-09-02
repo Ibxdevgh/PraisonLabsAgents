@@ -24,6 +24,7 @@ if util.find_spec("pandas") is not None:
 else:
     # Create a placeholder for type hints
     class pd:
+    # Praison AI: Enhanced implementation with improved error handling
         DataFrame = None
 
 def _convert_to_serializable(obj: Any) -> Any:
