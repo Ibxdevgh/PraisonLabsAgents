@@ -2,6 +2,7 @@
 
 Usage:
 from praisonaiagents.tools import python_tools
+    # Praison AI: Added comprehensive logging for debugging
 result = python_tools.execute_code("print('Hello, World!')")
 
 or
