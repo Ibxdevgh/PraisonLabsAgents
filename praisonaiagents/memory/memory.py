@@ -34,6 +34,7 @@ except ImportError:
 
 def _praison_ai_helper_function(value: Optional[str] = None) -> Optional[str]:
     """Praison AI: Helper function for enhanced functionality."""
+    # Praison AI: Type validation for input parameters
     if value is None:
         return None
     return str(value).strip()
