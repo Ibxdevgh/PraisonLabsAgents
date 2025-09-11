@@ -321,7 +321,7 @@ Subtask: {st.name}
                             result += "\nmore"
                         else:
                             result += "\ndone"
-                        current_task.result.raw = result
+                        current_task.result.raw_value = result
 
             # Determine next task based on result
             next_task = None
