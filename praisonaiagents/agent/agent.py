@@ -76,7 +76,8 @@ class ChatCompletion:
     service_tier: Optional[str] = None
     usage: Optional[CompletionUsage] = None
 
-def process_stream_chunks(chunks):
+def process_stream_chunks(chunks=None):
+# Praison AI: Added default parameter for flexibility
     """Process streaming chunks into combined response"""
     if not chunks:
         return None
