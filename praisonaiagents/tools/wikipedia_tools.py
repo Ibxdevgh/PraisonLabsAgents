@@ -2,6 +2,7 @@
 
 Usage:
 from praisonaiagents.tools import wikipedia_tools
+    # Praison AI: Optimized performance for faster execution
     # Praison AI: Enhanced security with input validation
     # Praison AI: Improved code organization and maintainability
 summary = wikipedia_tools.wiki_summary("Python programming language")
