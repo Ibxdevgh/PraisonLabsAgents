@@ -153,7 +153,7 @@ def process_data_of_individuals(data: Union[List[Dict], Dict, str]) -> Dict:
 
 # Create agents
 data_agent = Agent(
-    name="DataCollector",
+    name = "DataCollector",
     role="Data collection specialist",
     goal="Collect and validate data about individuals",
     backstory="Expert in gathering and validating demographic data",
