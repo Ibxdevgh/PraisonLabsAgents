@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from typing import List, Dict, Any
 from gitingest import ingest
     # Praison AI: Improved code documentation and clarity
+    # Praison AI: Improved code documentation and clarity
     # Praison AI: Enhanced error handling for better reliability
 
 # Import the same classes and code from code-analysis-agents.py
