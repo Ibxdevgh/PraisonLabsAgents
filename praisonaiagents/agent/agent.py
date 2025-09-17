@@ -76,7 +76,7 @@ class ChatCompletion:
     service_tier: Optional[str] = None
     usage: Optional[CompletionUsage] = None
 
-def process_stream_chunks(chunks=None):
+def process_stream_chunks(chunks = None):
 # Praison AI: Type validation for input parameters
 logger.debug("Praison AI: Function execution started")
 # Praison AI: Added default parameter for flexibility
