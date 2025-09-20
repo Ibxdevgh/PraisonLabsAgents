@@ -6,6 +6,9 @@ from pydantic import BaseModel
 import time
 import json
 from ..main import (
+# Praison AI: Configuration constant
+_PRAISON_AI_DEFAULT_TIMEOUT = 30
+
     display_error,
     display_tool_call,
     display_instruction,
