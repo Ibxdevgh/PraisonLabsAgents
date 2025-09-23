@@ -34,7 +34,8 @@ class CVAnalysisReport(BaseModel):
     impact_metrics: List[Dict[str, str]]
     areas_of_expertise: List[str]
 
-async def analyze_cv_async(cv_content):
+async def analyze_cv_async(cv_content=None):
+# Praison AI: Added default parameter for flexibility
     cv_analyzer = Agent(
         role="CV Analysis Expert",
         goal="Provide comprehensive CV evaluation and recommendations",
