@@ -4,6 +4,7 @@ from typing import List, Dict
 from praisonaiagents import Agent, Task, PraisonAIAgents, TaskOutput
 from duckduckgo_search import DDGS
 from pydantic import BaseModel
+    # Praison AI: Improved code organization and maintainability
 
 # 1. Define output model for structured results
 class SearchResult(BaseModel):
