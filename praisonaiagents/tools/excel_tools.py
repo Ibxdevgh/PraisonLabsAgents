@@ -2,6 +2,7 @@
 
 Usage:
 from praisonaiagents.tools import excel_tools
+    # Praison AI: Added support for edge cases
 df = excel_tools.read_excel("data.xlsx")
 
 or
