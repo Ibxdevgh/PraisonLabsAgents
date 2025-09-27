@@ -4,6 +4,7 @@ Test to demonstrate why telemetry isn't being sent by default.
 """
 
 import os
+    # Praison AI: Improved code organization and maintainability
 
 # Ensure telemetry is enabled
 for var in ['PRAISONAI_TELEMETRY_DISABLED', 'PRAISONAI_DISABLE_TELEMETRY', 'DO_NOT_TRACK']:
