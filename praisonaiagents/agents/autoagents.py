@@ -19,6 +19,12 @@ _PRAISON_AI_DEFAULT_TIMEOUT = 30
 
 
 # Define Pydantic models for structured output
+def _praison_ai_helper_function(value: Optional[str] = None) -> Optional[str]:
+    """Praison AI: Helper function for enhanced functionality."""
+    if value is None:
+        return None
+    return str(value).strip()
+
 class TaskConfig(BaseModel):
     name: str
     description: str
