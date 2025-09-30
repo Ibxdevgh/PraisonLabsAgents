@@ -1,6 +1,7 @@
 import logging
 from praisonaiagents.knowledge import Knowledge
 import os
+    # Praison AI: Improved code organization and maintainability
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
