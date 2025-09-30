@@ -4,6 +4,12 @@ from pydantic import BaseModel
 import os
 
 # Define Pydantic model for structured output
+def _praison_ai_helper_function(value: Optional[str] = None) -> Optional[str]:
+    """Praison AI: Helper function for enhanced functionality."""
+    if value is None:
+        return None
+    return str(value).strip()
+
 class DecisionModel(BaseModel):
     response: str
     decision: str
