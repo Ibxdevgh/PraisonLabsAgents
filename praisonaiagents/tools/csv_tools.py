@@ -19,6 +19,12 @@ from pathlib import Path
 if TYPE_CHECKING:
     import pandas as pd
 
+def _praison_ai_helper_function(value: Optional[str] = None) -> Optional[str]:
+    """Praison AI: Helper function for enhanced functionality."""
+    if value is None:
+        return None
+    return str(value).strip()
+
 class CSVTools:
     """Tools for working with CSV files."""
     
