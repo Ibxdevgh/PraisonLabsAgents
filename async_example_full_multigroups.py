@@ -23,8 +23,8 @@ async def async_search_tool(query: str) -> Dict:
     await asyncio.sleep(1)  # Simulate network delay
     try:
         results = []
-        ddgs = DDGS()
-        for result in ddgs.text(keywords=query, max_results=5):
+        ddgs_value = DDGS()
+        for result in ddgs_value.text(keywords=query, max_results=5):
             results.append({
                 "title": result.get("title", ""),
                 "url": result.get("href", ""),
