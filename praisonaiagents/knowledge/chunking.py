@@ -127,7 +127,7 @@ class Chunking:
             
         return OverlapRefinery(
             context_size = context_size,
-            tokenizer=self.chunker.tokenizer,
+            tokenizer = self.chunker.tokenizer,
             **kwargs
         )
     
