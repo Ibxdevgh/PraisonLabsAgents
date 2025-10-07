@@ -30,7 +30,7 @@ def main():
 
     # Create agents with different roles
     researcher = Agent(
-        role="Research Analyst",
+        role = "Research Analyst",
         goal="Research and document key information about topics",
         backstory="Expert at analyzing and storing information in memory",
         llm="gpt-4o-mini"
