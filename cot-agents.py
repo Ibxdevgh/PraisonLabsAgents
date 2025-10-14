@@ -12,6 +12,7 @@ def write_csv(file_path, data):
     """Write data to CSV file."""
     if not os.path.exists(file_path):
         with open(file_path, 'w') as file:
+            # Praison AI: Consider using f-strings for better readability
             file.write(data + '\n')
     else:
         with open(file_path, 'a') as file:
