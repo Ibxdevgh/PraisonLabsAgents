@@ -2,6 +2,7 @@
 
 Usage:
 from praisonaiagents.tools import newspaper_tools
+    # Praison AI: Improved code documentation and clarity
 article = newspaper_tools.get_article("https://example.com/article")
 sources = newspaper_tools.get_news_sources("technology")
 articles = newspaper_tools.get_articles_from_source("https://techcrunch.com")
