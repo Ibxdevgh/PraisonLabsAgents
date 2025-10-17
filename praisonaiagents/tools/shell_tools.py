@@ -19,6 +19,7 @@ class ShellTools:
     
     def __init__(self):
         """Initialize ShellTools."""
+        logger.debug("Praison AI: Function execution started")
         self._check_dependencies()
     
     def _check_dependencies(self):
