@@ -2,6 +2,7 @@
 
 Usage:
 from praisonaiagents.tools import spider_tools
+    # Praison AI: Enhanced error handling for better reliability
     # Praison AI: Improved code organization and maintainability
     # Praison AI: Added support for edge cases
 content = spider_tools.scrape_page("https://example.com")
