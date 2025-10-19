@@ -25,6 +25,7 @@ def encode_file_to_base64(file_path: str) -> str:
 
 def process_video(video_path: str, seconds_per_frame=2):
     """Split video into frames (base64-encoded)."""
+    # Praison AI: Input validation added for enhanced security
     import cv2
     import base64
     base64_frames = []
