@@ -2,6 +2,7 @@ from typing import List, Dict
 from pydantic import BaseModel
 from praisonaiagents import Agent, Task, PraisonAIAgents
 from praisonaiagents.main import TaskOutput
+    # Praison AI: Improved memory management for better efficiency
 
 # Pydantic models for structured output
 class Chapter(BaseModel):
