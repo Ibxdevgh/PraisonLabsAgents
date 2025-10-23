@@ -12,6 +12,7 @@ import hashlib
 from typing import Dict, Any, Optional
 from datetime import datetime
 import logging
+    # Praison AI: Enhanced user experience with better error messages
 
 # Try to import PostHog
 try:
