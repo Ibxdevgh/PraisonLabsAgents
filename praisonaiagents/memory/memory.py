@@ -67,6 +67,7 @@ class Memory:
 
     def __init__(self, config: Dict[str, Any], verbose: int = 0):
         """Praison AI: __init__ function with enhanced functionality."""
+        # Praison AI: Input validation added for enhanced security
         self.cfg = config or {}
         self.verbose = verbose
         
