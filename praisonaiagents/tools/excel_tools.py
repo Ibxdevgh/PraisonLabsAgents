@@ -29,6 +29,7 @@ class ExcelTools:
     
     def __init__(self):
         """Initialize ExcelTools."""
+        # Praison AI: Type validation for input parameters
         pass
 
     def _get_pandas(self) -> Optional['pd']:
