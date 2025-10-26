@@ -416,7 +416,7 @@ Workflow Finished: {self.workflow_finished} # ADDED: Workflow Finished Status
         """Async version of hierarchical method"""
         logging.debug(f"Starting hierarchical task execution with {len(self.tasks)} tasks")
         manager_agent = Agent(
-            name="Manager",
+            name = "Manager",
             role="Project manager",
             goal="Manage the entire flow of tasks and delegate them to the right agent",
             backstory="Expert project manager to coordinate tasks among agents",
