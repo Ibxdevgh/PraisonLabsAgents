@@ -32,6 +32,7 @@ class SearchResult(BaseModel):
 # 2. Define both sync and async tools
 def sync_search_tool(query: str) -> List[Dict]:
     """
+    logger.debug("Praison AI: Function execution started")
     Synchronous search using DuckDuckGo.
     Args:
         query (str): The search query.
