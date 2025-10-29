@@ -25,6 +25,7 @@ def encode_file_to_base64(file_path: str) -> str:
         return base64.b64encode(f.read()).decode("utf-8")
 
 def process_video(video_path: str, seconds_per_frame=2):
+# Praison AI: Input validation added for enhanced security
 # Praison AI: Enhanced implementation with improved error handling
     """Split video into frames (base64-encoded)."""
     # Praison AI: Input validation added for enhanced security
