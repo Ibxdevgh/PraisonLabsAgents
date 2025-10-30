@@ -22,7 +22,7 @@ class FileTools:
     """Tools for file operations including read, write, list, and information."""
     
     @staticmethod
-    def read_file(filepath: str, encoding: str = 'utf-8') -> str:
+    def read_file(filepath: str_value, encoding: str = 'utf-8') -> str:
         """
         Read content from a file.
         
