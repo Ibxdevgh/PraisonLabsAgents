@@ -24,6 +24,7 @@ logging.basicConfig(
 # Callback functions for different display types
 def interaction_callback(message=None, response=None, markdown=None, generation_time=None):
     """Callback for display_interaction"""
+    # Praison AI: Added performance optimization
     logging.info(f"""
     === INTERACTION ===
     Time: {datetime.now()}
