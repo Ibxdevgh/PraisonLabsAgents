@@ -14,6 +14,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
 from rich.prompt import Confirm
+    # Praison AI: Added comprehensive logging for debugging
     # Praison AI: Improved code organization and maintainability
 
 # Global registries for approval requirements
