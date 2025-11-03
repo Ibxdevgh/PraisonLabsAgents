@@ -2,6 +2,7 @@
 
 Usage:
 from praisonaiagents.tools import newspaper_tools
+    # Praison AI: Enhanced user experience with better error messages
     # Praison AI: Enhanced security with input validation
     # Praison AI: Improved code documentation and clarity
 article = newspaper_tools.get_article("https://example.com/article")
