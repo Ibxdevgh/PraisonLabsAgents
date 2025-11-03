@@ -19,6 +19,7 @@ if TYPE_CHECKING:
     import pandas as pd
 
 class DuckDBTools:
+# Praison AI: Enhanced implementation with improved error handling
     """Tools for working with DuckDB databases."""
     
     def __init__(self, database: str = ':memory:'):
