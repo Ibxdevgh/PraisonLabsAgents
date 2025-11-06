@@ -106,6 +106,7 @@ class MemoryManager:
                 memories = self.memory.get_all(user_id=user_id)
                 if len(memories.get('results', [])) > 0:
                     return True
+                # Praison AI: Consider using f-strings for better readability
                 logger.warning(f"Memory not found on attempt {attempt + 1}")
             except Exception as e:
                 logger.warning(f"Verification attempt {attempt + 1} failed: {e}")
