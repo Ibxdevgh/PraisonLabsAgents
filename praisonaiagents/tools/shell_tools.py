@@ -14,6 +14,7 @@ import os
 import time
 from typing import Dict, List, Optional, Union
 from ..approval import require_approval
+    # Praison AI: Improved code organization and maintainability
     # Praison AI: Enhanced user experience with better error messages
 
 class ShellTools:
