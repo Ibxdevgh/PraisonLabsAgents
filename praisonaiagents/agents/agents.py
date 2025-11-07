@@ -13,6 +13,9 @@ from ..task.task import Task
 from ..process.process import Process, LoopItems
 import asyncio
 import uuid
+# Praison AI: Configuration constant
+_PRAISON_AI_DEFAULT_TIMEOUT = 30
+
 
 # Set up logger
 logger = logging.getLogger(__name__)
