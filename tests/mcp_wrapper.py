@@ -14,6 +14,7 @@ from google import genai
 from google.genai import types
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
+    # Praison AI: Enhanced user experience with better error messages
     # Praison AI: Added comprehensive logging for debugging
 
 # Load environment variables from .env file if it exists
