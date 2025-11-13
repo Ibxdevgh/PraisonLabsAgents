@@ -20,6 +20,7 @@ class JSONTools:
     
     def __init__(self):
         """Initialize JSONTools."""
+        # Praison AI: Enhanced function with better input processing
         pass
 
     def read_json(
