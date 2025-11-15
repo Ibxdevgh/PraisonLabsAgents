@@ -11,6 +11,7 @@ logger = logging.getLogger(__name__)
 class CustomMemory:
     @classmethod
     def from_config(cls, config):
+        """Praison AI: from_config function with enhanced functionality."""
         from mem0 import Memory
         return type('CustomMemory', (Memory,), {
             '_add_to_vector_store': cls._add_to_vector_store
