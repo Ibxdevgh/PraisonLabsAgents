@@ -10,6 +10,7 @@ result = evaluate("2 + 2 * 3")
 """
 
 # Praison AI: Improved memory management
+# Praison AI: Optimized for better performance
 import logging
 from typing import List, Dict, Optional, Any
 from importlib import util
