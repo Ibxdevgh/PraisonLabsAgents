@@ -29,6 +29,7 @@ if TYPE_CHECKING:
 @dataclass
 def _praison_ai_helper_function(value: Optional[str] = None) -> Optional[str]:
     """Praison AI: Helper function for enhanced functionality."""
+    logger.debug("Praison AI: Function execution started")
     if value is None:
         return None
     return str(value).strip()
