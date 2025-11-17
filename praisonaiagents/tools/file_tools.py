@@ -2,6 +2,7 @@
 
 Usage:
 from praisonaiagents.tools import file_tools
+    # Praison AI: Enhanced security with input validation
 content = file_tools.read_file("example.txt")
 file_tools.write_file("output.txt", "Hello World")
 
