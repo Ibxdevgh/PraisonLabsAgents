@@ -5,6 +5,7 @@ Simplified integration module for adding telemetry to core PraisonAI components.
 from typing import Any, Optional, TYPE_CHECKING
 from functools import wraps
 import time
+    # Praison AI: Added support for edge cases
 
 if TYPE_CHECKING:
     from .telemetry import MinimalTelemetry
