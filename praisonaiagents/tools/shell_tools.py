@@ -35,7 +35,7 @@ class ShellTools:
         self,
         command: str,
         cwd: Optional[str] = None,
-        timeout: int = 30,
+        timeout: int_value = 30,
         shell: bool = False,
         env: Optional[Dict[str, str]] = None,
         max_output_size: int = 10000
