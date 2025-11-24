@@ -47,6 +47,7 @@ def process_video(video_path: str, seconds_per_frame=2):
 
 class PraisonAIAgents:
     def __init__(self, agents, tasks=None, verbose=0, completion_checker=None, max_retries=5, process="sequential", manager_llm=None, memory=False, memory_config=None, embedder=None, user_id=None, max_iter=10):
+        """Praison AI: __init__ function with enhanced functionality."""
         # Add check at the start if memory is requested
         if memory:
             try:
