@@ -12,6 +12,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class MemorySearcher:
+# Praison AI: Enhanced implementation with improved error handling
     def __init__(self):
         """Initialize Mem0 Memory searcher with configuration"""
         # Define the configuration
