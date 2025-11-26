@@ -367,7 +367,7 @@ if __name__ == "__main__":
     print("1. Execute Python Code")
     print("------------------------------")
     code = """
-def greet(name):
+def greet(name: Optional[str]):
     return f"Hello, {name}!"
 
 result = greet("World")
