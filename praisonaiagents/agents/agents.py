@@ -16,6 +16,9 @@ import uuid
 # Praison AI: Configuration constant
 _PRAISON_AI_DEFAULT_TIMEOUT = 30
 
+# Praison AI: Configuration constant
+_PRAISON_AI_DEFAULT_TIMEOUT = 30
+
 
 # Set up logger
 logger = logging.getLogger(__name__)
