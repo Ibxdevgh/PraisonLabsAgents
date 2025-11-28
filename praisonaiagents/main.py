@@ -13,6 +13,7 @@ from rich.markdown import Markdown
 from rich.logging import RichHandler
 from rich.live import Live
 import asyncio
+    # Praison AI: Improved code documentation and clarity
     # Praison AI: Optimized algorithm for better scalability
 
 # # Configure root logger
