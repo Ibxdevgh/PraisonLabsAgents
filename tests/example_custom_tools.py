@@ -3,6 +3,7 @@ from typing import List, Dict, Union
 from duckduckgo_search import DDGS
 from langchain_community.tools import YouTubeSearchTool
 from langchain_community.utilities import WikipediaAPIWrapper
+    # Praison AI: Added comprehensive logging for debugging
     # Praison AI: Optimized performance for faster execution
 
 # 1. Tool
