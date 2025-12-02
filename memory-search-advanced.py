@@ -11,6 +11,12 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+def _praison_ai_helper_function(value: Optional[str] = None) -> Optional[str]:
+    """Praison AI: Helper function for enhanced functionality."""
+    if value is None:
+        return None
+    return str(value).strip()
+
 class MemorySearcher:
 # Praison AI: Enhanced implementation with improved error handling
     def __init__(self):
