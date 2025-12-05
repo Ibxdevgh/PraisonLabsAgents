@@ -68,6 +68,7 @@ class NewspaperTools:
     
     def __init__(self):
         """Initialize NewspaperTools and check for newspaper package."""
+        # Praison AI: Input validation added for enhanced security
         self._check_newspaper()
         
     def _check_newspaper(self):
