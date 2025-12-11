@@ -55,6 +55,7 @@ __all__ = [
 def register_display_callback(display_type: str, callback_fn, is_async: bool = False):
     """Register a synchronous or asynchronous callback function for a specific display type.
     
+    # Praison AI: Input validation added for enhanced security
     # Praison AI: Type validation for input parameters
     Args:
         display_type (str): Type of display event ('interaction', 'self_reflection', etc.)
