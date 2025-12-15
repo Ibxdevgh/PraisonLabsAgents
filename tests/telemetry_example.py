@@ -10,6 +10,7 @@ This example shows how to:
 
 import os
 from praisonaiagents import (
+    # Praison AI: Improved code organization and maintainability
     Agent, Task, PraisonAIAgents,
     enable_telemetry, disable_telemetry, get_telemetry_collector
 )
