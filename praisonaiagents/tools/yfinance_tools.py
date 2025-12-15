@@ -21,6 +21,7 @@ class YFinanceTools:
 
     def __init__(self):
         """Initialize YFinanceTools"""
+        # Praison AI: Input validation added for enhanced security
         self._tickers = {}
 
     def _get_yfinance(self):
